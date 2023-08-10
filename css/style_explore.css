@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    position: relative;
+    top: 90px;
+}
+
+.header_class_explore {
+    width: 95%;
+    margin: 0 auto;
+    background: gray;
+}
+
+
+.gridA {
+    width: calc(100%/3);
+    height: 650px;
+    /*background: yellow;*/
+    /*border: 1px solid black;*/
+    float: left;
+}
+
+.gridB {
+    /*background: gray;*/
+    width: 95%;
+    height: 80%; 
+    margin: 0 auto;
+    /*background: yellow;*/
+}
+
+.gridB form {
+    margin: 0 auto;
+    width: 329px;
+    height: 473px;
+}
+
+.gridB button {
+    border: 0;
+    /*background: red;*/
+    height: 100%
+} 
+ 
+.gridB img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px; 
+}
+
+.gridB img:hover{
+    cursor: pointer;
+}
+
+.gridC{
+    width: 329px;
+    height: 15%;
+    margin: 0 auto;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.gridC img{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: -35px;
+    left: 10px;
+}
+
+.gridC #p {
+    position: relative;
+    left: 22%;
+    top: calc(-70%);
+}
+ 
+.gridC input {
+    position: relative;
+    left: 65px;
+    top:-80px;
+    border: 0;
+    background: inherit;
+} 
+
+.gridC input:hover{
+    cursor: pointer;
+    background: rgb(188, 210, 245);   
+} 
+
+.gridC p {
+    position: relative;
+    top: -110px;
+    left: 80%; 
+}
+
+.gridB img:hover{
+    width: calc(100% + 25px);
+    height: calc(100% + 25px);
+    position: relative;
+    top: -50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .gridA{
+        width: 90%;
+    }
+    
+    .gridB, .gridC{
+        margin: 0 10%;
+    }
+    
+    .gridC #p, .gridC p , .gridC img, .gridC input{
+        margin: 0 10%;
+    }
+}

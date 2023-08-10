@@ -1,0 +1,43 @@
+.admi_menu {
+    width: 30%;
+    height: 100%;
+    background: rgb(211, 222, 240);
+}
+
+.admi_menu p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.admi_menu ul{
+    margin-left: 50px;
+} 
+
+.admi_menu input {
+    display: block;
+    border: 0; 
+    background: inherit;
+    padding-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer; 
+} 
+
+.admi_menu input:hover{
+    background: gray; 
+} 
+ 
+updateBrand, updateLogo, updateMainImage, newuser, addperfil, 
+addart, changeaccount, removeuser, removepic, addDetailsart{
+    border: 1px solid black;
+    position: relative;
+    top: -80%;
+    left: 35%;
+    padding: 30px; 
+    width: 100%;
+}   
+
+updateBrand, updateLogo, updateMainImage, newuser, addperfil, 
+addart, changeaccount, removeuser, removepic, addDetailsart form{
+    width: 55%;
+}

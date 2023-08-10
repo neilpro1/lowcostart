@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header {/*header*/
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.header_class {/*header_class*/
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header_class a, .header_class a p, a:visited{/*a*/
+    text-decoration: none;
+    color: black;
+} 
+
+.header_class .logo{/*logo*/
+    width: 50%;
+    height: 100%;
+    float:left;
+} 
+
+.logo #logo_image {/*logo_image*/
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-top: 6px;
+}
+
+.logo #logo_image img {/*logo_image > img*/
+    width: 100px;
+    height: 40px;
+}
+ 
+.logo #logo_brand {/*logo_brand*/
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding-top: 14px;
+}
+
+.logo #logo_brand p {/*brand p*/
+    font-size: 15pt;
+}
+
+.header_class .menu {/*menu*/
+    width: 50%;
+    height: 56px;
+    float:left;
+}
+
+.menu .menu_insider{/*menu insider*/
+    width: 50%;
+    height: 100%;
+    margin-left: 70%;
+}
+
+.menu_insider > div{/*menu_insider > all divs*/
+    height: 100%;
+    float: left;
+    margin-left: 4%;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 600px){
+    header {
+        height: 250px;
+        position: relative;
+    }
+    
+    .header_class {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .header_class .logo a div {
+        margin-right: 10px;
+    }
+    
+    .menu {
+        width: 100%;
+        position: relative;
+        top: calc(-80%);
+    }
+    
+    .menu_insider {
+        width: 100%;
+    }
+    
+    .menu_insider div {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 800px){
+    
+    .header_class .logo, .header_class .menu {
+        display: block;
+    }
+    
+    header{
+        width: 100%;
+
+    }
+    
+    .header_class{
+        width: 100%;
+    }
+    
+    .header_class .logo{
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .header_class .logo a div{
+        width: 100%;
+        margin-left: calc(7.5%);
+    }
+    
+    /*Other section*/
+    
+    .header_class .menu {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .header_class .menu .menu_insider {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .header_class .menu .menu_insider div{
+        width: calc((100% / 3.5));
+    }
+}

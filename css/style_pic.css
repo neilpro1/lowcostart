@@ -1,0 +1,111 @@
+.img_pic{
+    width: 50%;
+    height: 80%;
+    position: relative;
+    top: 70px;
+    margin-left: 3%;
+}
+
+.img_pic img {
+    width: 60%;
+    height: 80%;
+    border-radius: 16px;
+}
+
+.info_art{
+    width: 50%;
+    position: relative;
+    left: 35%;
+    top:-65%;
+}
+
+.info_art span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.info_art #userName h1 span {
+    color: gray;
+}
+
+.info_art #userName h1{
+    font-size: 20px;
+    font-weight: normal;
+    color: blue;
+    text-decoration: none;
+}
+
+.info_art #username a{
+    font-size: 20px;
+    font-weight: normal;
+    color: blue;
+    text-decoration: none;
+}
+
+.priceArt{
+    width: 100%;
+    border: 1px solid rgba(161, 153, 153,0.4);
+    border-radius: 16px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    background: rgb(161, 153, 153, 0.3);
+}
+
+.priceArt p{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: gray;
+}
+
+.priceArt h1 {
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+
+.info_art a {
+    position: relative;
+    top:-210px; 
+    left: 80%;
+    border: 1px solid rgb(50, 127, 168);
+    background: rgb(50, 127, 168);
+    border-radius: 16px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+
+.descriptionArt{
+    width: 100%;
+    background: rgb(161, 153, 153, 0.3);
+    position: relative;
+    top: 50px;
+    border: 1px solid rgba(161, 153, 153,0.4);
+    min-height: 100px;
+    border-radius: 16px;
+}
+
+.descriptionArt p{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: gray;
+}
+
+.descriptionArt ul {
+    position: relative;
+    left: 30%;
+    top: 50px;
+    color: gray;
+}
+
+.descriptionArt ul p {
+    color: black;
+    position: relative;
+    top: -18px;
+    left: 10%;
+}

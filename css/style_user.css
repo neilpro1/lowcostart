@@ -1,0 +1,48 @@
+.img_user {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 60px;
+}
+
+.img_user img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 0 45%; 
+}
+
+.img_user p {
+    margin: 0 45%;
+    font-size: 30px;
+}
+
+form {
+    position: relative;
+    top: 150px;
+    width: 100%;
+}
+ 
+form button{
+    width: calc(100%/3);
+    height: 573px;
+    float: left;
+    border: 0;
+}
+
+button img {
+    width: calc(329px + 50px);
+    height: 473px;
+    border-radius: 16px;
+}
+
+button img:hover{
+    cursor: pointer;
+}
+
+button p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
